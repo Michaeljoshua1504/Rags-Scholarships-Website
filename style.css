@@ -238,7 +238,7 @@ section .title::after{
 .about .title::after{
     content: "The Program";
 }
-.about .about-content .left .video{
+.about .about-content .left{
     width: 35%;
     height: 5%;
 }
@@ -470,15 +470,11 @@ footer span a:hover{
     }
 }
 
-
-
 @media (max-width: 991px) {
     .max-width{
         padding: 0 50px;
     }
 }
-
-
 @media (max-width: 947px){
     .menu-btn{
         display: block;
@@ -539,8 +535,6 @@ footer span a:hover{
     }
 }
 
-
-
 @media (max-width: 690px) {
     .max-width{
         padding: 0 23px;
@@ -558,8 +552,6 @@ footer span a:hover{
         width: 100%;
     }
 }
-
-
 
 @media (max-width: 500px) {
     .home .home-content .text-2{
@@ -590,3 +582,113 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+@media (max-width: 400px) {
+    .navbar .logo a{
+        color: #fff;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .home .home-content .text-2{
+        font-size: 40px;
+    }
+    .home .home-content .text-3{
+        font-size: 17px;
+    }
+    .about .about-content .right .text{
+        font-size: 10px;
+    }
+    .contact .right form .fields{
+        flex-direction: column;
+    }
+    .contact .right form .name,
+    .contact .right form .email{
+        margin: 0;
+    }
+    .right form .error-box{
+       width: 150px;
+    }
+    .scroll-up-btn{
+        right: 15px;
+        bottom: 15px;
+        height: 38px;
+        width: 35px;
+        font-size: 23px;
+        line-height: 38px;
+    }
+}
+
+@media (max-width: 390px) {
+    .navbar .logo a{
+        color: #fff;
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .home .home-content .text-2{
+        font-size: 40px;
+    }
+    .home .home-content .text-3{
+        font-size: 17px;
+    }
+    .about .about-content .right .text{
+        font-size: 08px;
+        font-weight: 100;
+    }
+    .about .about-content .right{
+        width: 45%;
+        /*margin-top: -10%;   (Adjust the margin of the paragraph)              */ 
+    }
+    .about .about-content .right p{
+        text-align: justify;
+        font-size: 15px;
+        font-weight: 200;
+    }
+    .contact .right form .fields{
+        flex-direction: column;
+    }
+    .contact .right form .name,
+    .contact .right form .email{
+        margin: 0;
+    }
+    .right form .error-box{
+       width: 150px;
+    }
+    .scroll-up-btn{
+        right: 15px;
+        bottom: 15px;
+        height: 38px;
+        width: 35px;
+        font-size: 23px;
+        line-height: 38px;
+    }
+    section .title{
+        position: relative;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 60px;
+        padding-bottom: 20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    section .title::before{
+        content: "";
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        width: 200px;
+        height: 3px;
+        background: #111;
+        transform: translateX(-50%);
+    }
+    section .title::after{
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        font-size: 18px;
+        color: crimson;
+        padding: 0 5px;
+        background: #fff;
+        transform: translateX(-50%);
+    }
+}
+
