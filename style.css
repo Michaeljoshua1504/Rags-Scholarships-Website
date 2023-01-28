@@ -708,7 +708,7 @@ footer span a:hover{
         position: absolute;
         bottom: -8px;
         left: 50%;
-        font-size: 16px;
+        font-size: 17px;
         color: crimson;
         padding: 0 5px;
         background: #fff;
@@ -722,7 +722,7 @@ footer span a:hover{
         position: absolute;
         bottom: -8px;
         left: 50%;
-        font-size: 17px;
+        font-size: 16px;
         color: crimson;
         padding: 0 5px;
         background: #fff;
@@ -730,3 +730,16 @@ footer span a:hover{
     }
 }
 
+@media (max-width: 340px)
+{
+    section .title::after{
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        font-size: 14px;
+        color: crimson;
+        padding: 0 5px;
+        background: #fff;
+        transform: translateX(-50%);
+    }
+}
