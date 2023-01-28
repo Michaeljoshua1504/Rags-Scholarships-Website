@@ -616,6 +616,16 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+    section .title::after{
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        font-size: 18px;
+        color: crimson;
+        padding: 0 5px;
+        background: #fff;
+        transform: translateX(-50%);
+    }
 }
 
 @media (max-width: 390px) {
@@ -685,6 +695,20 @@ footer span a:hover{
         bottom: -8px;
         left: 50%;
         font-size: 18px;
+        color: crimson;
+        padding: 0 5px;
+        background: #fff;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 350px)
+{
+    section .title::after{
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        font-size: 17px;
         color: crimson;
         padding: 0 5px;
         background: #fff;
