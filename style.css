@@ -702,6 +702,20 @@ footer span a:hover{
     }
 }
 
+@media (max-width: 360px)
+{
+    section .title::after{
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        font-size: 16px;
+        color: crimson;
+        padding: 0 5px;
+        background: #fff;
+        transform: translateX(-50%);
+    }
+}
+
 @media (max-width: 350px)
 {
     section .title::after{
